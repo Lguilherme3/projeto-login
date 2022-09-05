@@ -7,7 +7,86 @@
 */
 
 * {
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0px;
+    padding: 0px; 
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+html {
     background-color: #5f2c82;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#imagem {
+    margin-top: 30%;
+    text-align: center;
+}
+
+img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#formulario {
+    margin: auto;
+    margin-top: -4px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+input { 
+    background-color: #5f2c82;
+    margin-left: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+div#formulario > p {
+    margin-top: 5px;
+    font-size: 13px;
+    padding: 10px;
+    word-spacing: -1px;
+}
+
+div#formulario > form > input {
+    width: 220px;
+    height: 30px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+div#formulario > form > button {
+    width: 227px;
+    height: 40px;
+    display: block;
+    margin: -5px auto 6px;
+    border-radius: 5px;
+    background-color: #49a09d;
+    color: white;
+    outline: auto;
+}
+
+div#formulario > form > button#lostpassword {
+    background-color: white;
+    color: #254e4d;
+    width: 225px;
+    height: 38px;
+    outline: auto;
+   
+}
+
+div#formulario > form > button:hover {
+    background-color: #2f6362;
+    cursor: pointer;
+}
+
+div#formulario > form > button#lostpassword:hover {
+    background-color: #49a09db2;
     
 }

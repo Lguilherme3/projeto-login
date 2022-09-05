@@ -12,13 +12,16 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/img_login1.jpg" alt="fotopaglogin">
+                <img src="imagens/img_login1.jpg" alt="fotopaglogin" width="250px" height="300px">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-
+                    <input type="email" name="eamil" id="eamil" autofocus placeholder="Seu e-mail">
+                    <input type="password" name="senha" id="senha" placeholder="Sua senha">
+                    <button type="submit" >Entrar</button>
+                    <button id ="lostpassword" type="submit">Esqueci a Senha <img src="imagens/email.png" alt="imgcarta"></button>
                 </form>
             </div>
 
